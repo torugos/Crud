@@ -9,3 +9,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .v-middle{
     vertical-align: middle;
 }
+
+.green-snackbar{
+    background: green;
+    color: #fff;
+}
+
+.red-snackbar{
+    background: red;
+    color: #fff;
+}

@@ -4,6 +4,6 @@
     font-weight: 5;
     
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     max-height: 2rem;
 }
