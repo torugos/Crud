@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-card-title>Alterar Produto</mat-card-title>
+    <form [formGroup]="formulario">
+        <mat-form-field>
+            <input matInput placeholder="Nome" formbuilder="name" name="name" >
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" formbuilder="price" name="price">
+        </mat-form-field>
+        <div>   
+            <button mat-raised-button (click)="updateProduct()" color="primary" style="float:right">Salvar</button>
+            <button mat-raised-button (click)="cancel()" style="float:right">Cancel</button>
+        </div>
+    </form>
+</mat-card>

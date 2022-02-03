@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Samsung S20FE",
       "price": 2500
+    },
+    {
+      "name": "testenome",
+      "price": "230.50",
+      "id": 4
     }
   ]
 }

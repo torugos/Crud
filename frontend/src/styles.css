@@ -19,3 +19,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: red;
     color: #fff;
 }
+
+.direita{
+    display: flex;
+    justify-content: flex-end;
+    max-height: 3rem;
+}

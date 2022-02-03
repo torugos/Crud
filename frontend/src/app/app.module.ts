@@ -22,12 +22,14 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import {MatTableModule} from '@angular/material/table'
 import {HttpClientModule} from '@angular/common/http'
 import {FormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms'
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 import localePt from '@angular/common/locales/pt'
 import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -40,7 +42,8 @@ registerLocaleData(localePt);
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
@@ -56,7 +59,8 @@ registerLocaleData(localePt);
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    MatTableModule
+    MatTableModule,
+    ReactiveFormsModule
   ],
   providers: [{
     provide:LOCALE_ID,
